@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS BOX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .box {
+        border: solid 2px rgb(83, 83, 218);
+        margin: 20px auto 20px auto;
+        width: 640px;
+        height: auto;
+        padding: 16px;
+        border-radius: 5px;
+      }
+      body {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 32px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.2em;
+        font-size: 16px;
+        color: rgb(34, 34, 42);
+        background-color: azure;
+      }
+      button {
+        padding: 18px;
+        height: auto;
+        position: relative;
+        top: -80px;
+        left: -270px;
+        background-color: rgb(83, 83, 218);
+        border: none;
+        border-radius: 8px;
+        color: azure;
+        box-shadow: 2px 2px 3px 2px rgb(73, 73, 215);
+      }
+      button:active {
+        background-color: rgba(115, 115, 216, 0.572);
+        transition: all 300ms;
+      }
+      a {
+        text-decoration: none;
+        color: azure;
+        font-weight: 400;
+        font-size: 20px;
+        font-style: normal;
+      }
+      button:hover {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 30px;
+        transition: all 0ms;
+      }
+    </style>
+  </head>
+  <body>
+    <button><a href="index.html">HOME</a></button>
+    <div class="box">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa minima,
+        veritatis doloremque architecto dolore et, blanditiis quia nam
+        molestiae, debitis quam? Harum unde eaque ea maiores quod neque delectus
+        sit aut! Qui quo autem ipsa temporibus eaque saepe dolores itaque
+        maiores, recusandae perspiciatis quam natus eligendi possimus ipsum
+        ducimus obcaecati odit vitae tenetur a distinctio, quidem facilis illum
+        hic. Illum autem, laboriosam recusandae totam quasi a deserunt. Et
+        quaerat delectus reiciendis quasi, aperiam aliquam unde architecto
+        officiis vero quas porro eum eaque optio quae accusantium sapiente neque
+        incidunt dolorum distinctio. Nihil sed perspiciatis nulla maiores
+        consequatur assumenda optio, eius animi.
+      </p>
+    </div>
+    <div class="box">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa minima,
+        veritatis doloremque architecto dolore et, blanditiis quia nam
+        molestiae, debitis quam? Harum unde eaque ea maiores quod neque delectus
+        sit aut! Qui quo autem ipsa temporibus eaque saepe dolores itaque
+        maiores, recusandae perspiciatis quam natus eligendi possimus ipsum
+      </p>
+    </div>
+  </body>
+</html>
